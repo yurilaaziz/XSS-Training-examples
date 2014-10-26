@@ -3,3 +3,8 @@ training-samples
 XSS Training examples.
 Written by Med Amine BEN ASKER (Twitter) @asker_amine
 
+This is not a functional guestbook.
+It's an example for training XSS (Cross Site Scripting exploit).
+This script includes a Reflected XSS, Stored XSS as well as SQL injection.
+
+Follow me (Twitter) @asker_amine and feel free to ask
