@@ -1,4 +1,16 @@
 <?php
+/******************************************************************************
+*    [+] XSS Training examples.
+* 
+* @author Med Amine BEN ASKER (Twitter) @asker_amine
+* @file search.php 
+* This is not a functional guestbook.
+* It's an example for training XSS (Cross Site Scripting exploit).
+* This script includes a Reflected XSS, Stored XSS as well as SQL injection.
+* 
+* Follow me (Twitter) @asker_amine and feel free to ask
+*****************************************************************************/
+
 include("common.php");
 $mysql = $arrayName = array('dbname'     => "xsslab",
                             'dbuser'     => "root",
