@@ -3,7 +3,9 @@
 *  input : URL?c = [...]
 *             &r = redirection 
 ***/
+
 $cookie = isset($_GET["c"]) ? $_GET["c"] : NULL;
+$redirection = isset($_GET["r"]) ? $_GET["r"] : NULL;
 
 if($cookie)
 {
